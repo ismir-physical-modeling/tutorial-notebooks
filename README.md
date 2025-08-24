@@ -1,7 +1,7 @@
 # Differentiable Physical Modeling Sound Synthesis: Theory, Musical Application, and Programming
 
 - ISMIR 2025 Tutorial
-- Date: 2025-09-20
+- Date: 2025-09-21
 - Presenters: [Jin Woo Lee], [Stefan Bilbao], and [Rodrigo Diaz]
 
 ### Abstract
