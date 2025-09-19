@@ -1,14 +1,24 @@
 # 3. Neural Network Designs for Physical Modeling
 
-## 3.1. Neural ODEs
+## Installation
 
-## 3.2. Physics-informed neural networks (PINNs)
+To run the notebooks in this part, you need to install the dependencies listed in the `pyproject.toml`.
 
-## 3.3. Neural operators
+This can be done by running the following command in your terminal:
 
-## 3.4. Deep Koopman operator
+```bash
+uv sync
+```
 
-## 3.5. Deep state space models
+## 3.1. Physics-informed neural networks (PINNs)
+
+## 3.2. Neural ODEs (NODE)
+
+## 3.3. Neural operators (FNO and FNO_AR)
+
+## 3.4. Deep Koopman operator (Koopman)
+
+## 3.5. Deep state space models (DSSM)
 
 ## 3.6. Conclusion and perspectives
 
