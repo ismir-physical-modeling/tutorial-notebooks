@@ -316,12 +316,6 @@ def visualize_results(
     else:
         plt.close(fig)
 
-    test_target_trimmed = test_sample[:, : test_pred_sample.shape[1], :, :]
-    test_mse = jnp.mean((test_pred_sample - test_target_trimmed) ** 2)
-    test_mae = jnp.mean(jnp.abs(test_pred_sample - test_target_trimmed))
-
-    print(f"Test Sample - MSE: {test_mse:.6f}, MAE: {test_mae:.6f}")
-
 
 def create_test_model(model: Any, n_steps_test: int) -> Any:
     """Create a test model with modified n_steps while keeping all trained weights.
