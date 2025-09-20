@@ -39,5 +39,9 @@ extra-standard-library = ["typing_extensions"]
 lines-after-imports = 2
 order-by-type = false
 
+# there are no pacakes here but this is needed for pip
+[tool.setuptools]
+packages = ["part2", "part3", "part4"]
+
 [tool.ty.environment]
 extra-paths = ["./part3"]
