@@ -7,7 +7,9 @@
 
 ## Installation
 
-Clone this repository and run the following command to install the required packages:
+**It is recommended** to use [uv](https://docs.astral.sh/uv/) to manage the Python environment for this tutorial.
+
+Clone this repository and run the following command to install the required packages.
 
 ```bash
 uv sync
