@@ -4,7 +4,34 @@
 - Date: 2025-09-21
 - Presenters: [Jin Woo Lee], [Stefan Bilbao], and [Rodrigo Diaz]
 
-### Abstract
+
+## Installation
+
+**It is recommended** to use [uv](https://docs.astral.sh/uv/) to manage the Python environment for this tutorial.
+
+Clone this repository and run the following command to install the required packages.
+
+```bash
+uv sync
+```
+
+## Tutorial Data
+
+The data can be downloaded from [this link](https://drive.google.com/drive/folders/11Be2N1xStqE-1Xli4JPF14uGnomJWzP0?usp=sharing). After downloading, unzip the file and place the `data` folder in the part3 directory, following the structure below:
+
+```.
+├── part1
+├── part2
+├── part3
+│   ├── data/
+│   ├── NODE.ipynb
+│   └── ...
+├── README.md
+└── ...
+```
+
+## Abstract
+
 Recent years have witnessed growing interest in bridging traditional sound synthesis methods with emerging machine learning technologies. This tutorial is motivated by the convergence of two previously distinct trajectories in audio research: physics-based sound synthesis and data-driven neural approaches. This session highlights how differentiable physical modeling opens new avenues for musical sound synthesis by combining the interpretability and realism of physical simulation with the learning capacity of modern neural networks.
 
 The tutorial is structured into five segments: an overview of digital synthesis history and physical modeling, a detailed introduction to finite difference time domain (FDTD) methods across various instrument classes, a broad survey of neural architectures relevant to physical modeling, an in-depth look at differentiable modeling for parameter estimation using automatic differentiation, and a concluding session to synthesize key takeaways. Attendees will engage with theoretical material, practical demonstrations, and programming exercises, gaining hands-on experience in combining physics-based simulation with neural networks.
